@@ -1,68 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Rajive Sharma Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajive Sharma | Cloud & DevOps Engineer</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<h1>Rajive Sharma</h1>
+<div class="container">
 
-<h3>Cloud Associate Engineer</h3>
+    <!-- Hero Section -->
 
-<hr>
+    <section class="hero">
 
-<h2>About MySelf</h2>
+        <h1>👋 Hi, I'm <span>Rajive Sharma</span></h1>
 
-<p>
-I am a Cloud Associate Engineer with experience in Windows, AWS,
-Linux, Docker, Kubernetes, Terraform, CloudFormation, Jenkins-CI/CD and DevOps Automation.
-</p>
+        <h2>Cloud Associate Engineer | DevOps Enthusiast</h2>
 
-<hr>
+        <p>
+            Passionate about AWS, DevOps, Cloud Automation, CI/CD,
+            Kubernetes, Docker and Infrastructure as Code.
+        </p>
 
-<h2>Skills:--</h2>
+        <div class="buttons">
 
-<ul>
-<li>AWS</li>
-<li>Docker</li>
-<li>Kubernetes</li>
-<li>Terraform</li>
-<li>CloudFormation</li>
-<li>Linux</li>
-<li>Git</li>
-<li>Prometheus</li>
-<li>Grafana</li>
-<li>Azure</li>
-<li>Jenkins CI/CD</li>
-<li>Windows Server</li>
-<li>Netwroking--CCNA</li>
-</ul>
+            <a href="mailto:rajivesharma771@gmail.com" class="btn">
+                📧 Contact Me
+            </a>
 
-<hr>
+            <a href="https://www.youtube.com/" target="_blank" class="btn youtube">
+                ▶️ CTK YouTube
+            </a>
 
-<h2>Projects</h2>
+        </div>
 
-<ul>
-<li>AWS Monitoring Stack</li>
-<li>CloudFormation Infrastructure</li>
-<li>AWS ECS CI/CD Pipeline</li>
-<li>Windows Monitoring Dashboard</li>
-</ul>
+    </section>
 
-<hr>
 
-<h2>Certifications</h2>
+    <!-- About -->
 
-<p>AWS Certified CloudOps Associate</p>
+    <section class="card">
 
-<hr>
+        <h2>🚀 About Me</h2>
 
-<h2>Contact</h2>
+        <p>
 
-<p>Email: rajivesharma771@gmail.com</p>
+            I am a Cloud Associate Engineer with hands-on experience in
+            AWS, Linux Administration, Windows Server, Docker,
+            Kubernetes, Terraform, CloudFormation,
+            Jenkins CI/CD, Monitoring and DevOps Automation.
+
+            I enjoy building scalable cloud infrastructure and automating
+            deployments using Infrastructure as Code.
+
+        </p>
+
+    </section>
+
+
+    <!-- Skills -->
+
+    <section class="card">
+
+        <h2>🛠 Skills</h2>
+
+        <div class="skills">
+
+            <span>AWS</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Terraform</span>
+            <span>CloudFormation</span>
+            <span>Linux</span>
+            <span>Windows Server</span>
+            <span>Azure</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Jenkins</span>
+            <span>CI/CD</span>
+            <span>Prometheus</span>
+            <span>Grafana</span>
+            <span>Loki</span>
+            <span>Networking (CCNA)</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+
+    <section class="card">
+
+        <h2>📂 Featured Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>AWS Monitoring Stack</h3>
+                <p>Prometheus + Grafana + Loki monitoring for Linux & Windows Servers.</p>
+            </div>
+
+            <div class="project">
+                <h3>CloudFormation Infrastructure</h3>
+                <p>Automated AWS infrastructure deployment using Infrastructure as Code.</p>
+            </div>
+
+            <div class="project">
+                <h3>ECS CI/CD Pipeline</h3>
+                <p>Docker → ECR → ECS deployment using AWS CodePipeline & CodeBuild.</p>
+            </div>
+
+            <div class="project">
+                <h3>Windows Monitoring Dashboard</h3>
+                <p>Custom Grafana dashboards with Prometheus exporters for Windows Servers.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Certifications -->
+
+    <section class="card">
+
+        <h2>🏆 Certification</h2>
+
+        <p>✅ AWS Certified CloudOps Associate</p>
+
+    </section>
+
+
+    <!-- YouTube -->
+
+    <section class="card">
+
+        <h2>📺 Content Creator</h2>
+
+        <p>
+
+            I also run a YouTube channel where I create travel and technology
+            related content.
+
+        </p>
+
+        <a href="https://www.youtube.com/" target="_blank" class="btn youtube">
+            Visit CTK Channel
+        </a>
+
+    </section>
+
+
+    <!-- Contact -->
+
+    <section class="card contact">
+
+        <h2>📞 Contact</h2>
+
+        <p>📧 rajivesharma771@gmail.com</p>
+
+    </section>
+
+</div>
 
 </body>
-
 </html>
