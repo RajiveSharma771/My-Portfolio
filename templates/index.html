@@ -2,174 +2,719 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajive Sharma | AWS Cloud & DevOps Engineer</title>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Rajive Sharma | Cloud & DevOps Engineer</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="description"
+    content="Rajive Sharma - Cloud Associate Engineer specializing in AWS, DevOps, CI/CD, Docker, Kubernetes and Cloud Automation">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+    <!-- Font Awesome Icons -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
 </head>
 
+
 <body>
 
-<div class="container">
 
-    <!-- Hero Section -->
-
-    <section class="hero">
-
-        <h1>👋 Hi, I'm <span>Rajive Sharma</span></h1>
-
-        <h2>Cloud Associate Engineer | DevOps Enthusiast</h2>
-
-        <p>
-            Passionate about AWS, DevOps, Cloud Automation, CI/CD,
-            Kubernetes, Docker and Infrastructure as Code.
-        </p>
-
-        <div class="buttons">
-
-            <a href="mailto:rajivesharma771@gmail.com" class="btn">
-                📧 Contact Me
-            </a>
-
-            <a href="https://www.youtube.com/" target="_blank" class="btn youtube">
-                ▶️ CTK YouTube
-            </a>
-
-        </div>
-
-    </section>
+<!-- ================= NAVBAR ================= -->
 
 
-    <!-- About -->
+<header>
 
-    <section class="card">
-
-        <h2>🚀 About Me</h2>
-
-        <p>
-
-            I am a Cloud Associate Engineer with hands-on experience in
-            AWS, Linux Administration, Windows Server, Docker,
-            Kubernetes, Terraform, CloudFormation,
-            Jenkins CI/CD, Monitoring and DevOps Automation.
-
-            I enjoy building scalable cloud infrastructure and automating
-            deployments using Infrastructure as Code.
-
-        </p>
-
-    </section>
+<nav class="navbar">
 
 
-    <!-- Skills -->
+<div class="logo">
 
-    <section class="card">
-
-        <h2>🛠 Skills</h2>
-
-        <div class="skills">
-
-            <span>AWS</span>
-            <span>Docker</span>
-            <span>Kubernetes</span>
-            <span>Terraform</span>
-            <span>CloudFormation</span>
-            <span>Linux</span>
-            <span>Windows Server</span>
-            <span>Azure</span>
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>Jenkins</span>
-            <span>CI/CD</span>
-            <span>Prometheus</span>
-            <span>Grafana</span>
-            <span>Loki</span>
-            <span>Networking (CCNA)</span>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-
-    <section class="card">
-
-        <h2>📂 Featured Projects</h2>
-
-        <div class="projects">
-
-            <div class="project">
-                <h3>AWS Monitoring Stack</h3>
-                <p>Prometheus + Grafana + Loki monitoring for Linux & Windows Servers.</p>
-            </div>
-
-            <div class="project">
-                <h3>CloudFormation Infrastructure</h3>
-                <p>Automated AWS infrastructure deployment using Infrastructure as Code.</p>
-            </div>
-
-            <div class="project">
-                <h3>ECS CI/CD Pipeline</h3>
-                <p>Docker → ECR → ECS deployment using AWS CodePipeline & CodeBuild.</p>
-            </div>
-
-            <div class="project">
-                <h3>Windows Monitoring Dashboard</h3>
-                <p>Custom Grafana dashboards with Prometheus exporters for Windows Servers.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Certifications -->
-
-    <section class="card">
-
-        <h2>🏆 Certification</h2>
-
-        <p>✅ AWS Certified CloudOps Associate</p>
-
-    </section>
-
-
-    <!-- YouTube -->
-
-    <section class="card">
-
-        <h2>📺 Content Creator</h2>
-
-        <p>
-
-            I also run a YouTube channel where I create travel and technology
-            related content.
-
-        </p>
-
-        <a href="https://www.youtube.com/" target="_blank" class="btn youtube">
-            Visit CTK Channel
-        </a>
-
-    </section>
-
-
-    <!-- Contact -->
-
-    <section class="card contact">
-
-        <h2>📞 Contact</h2>
-
-        <p>📧 rajivesharma771@gmail.com</p>
-
-    </section>
+Rajive<span>.</span>
 
 </div>
 
+
+
+<ul class="nav-links">
+
+<li>
+<a href="#home">Home</a>
+</li>
+
+<li>
+<a href="#about">About</a>
+</li>
+
+
+<li>
+<a href="#experience">Experience</a>
+</li>
+
+
+<li>
+<a href="#skills">Skills</a>
+</li>
+
+
+<li>
+<a href="#projects">Projects</a>
+</li>
+
+
+<li>
+<a href="#contact">Contact</a>
+</li>
+
+
+</ul>
+
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<!-- ================= HERO SECTION ================= -->
+
+
+<section id="home" class="hero">
+
+
+<div class="hero-container">
+
+
+
+<div class="hero-content">
+
+
+<h1>
+
+Hi, I'm 
+<span>
+Rajive Sharma
+</span>
+
+</h1>
+
+
+
+<h2>
+
+I'm a 
+<span id="typing">
+
+</span>
+
+</h2>
+
+
+
+<p>
+
+Cloud Associate Engineer specializing in AWS,
+DevOps automation, Infrastructure as Code,
+Containerization and Cloud Security.
+
+</p>
+
+
+
+
+<div class="social-buttons">
+
+
+<a href="https://github.com/RajiveSharma771"
+target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+
+
+<a href="https://www.linkedin.com/in/rajive-sharma-a4a730293"
+target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+
+
+<a href="#">
+
+<i class="fab fa-youtube"></i>
+
+</a>
+
+
+
+</div>
+
+
+
+
+<a href="#projects" class="btn">
+
+View My Projects
+
+</a>
+
+
+
+</div>
+
+
+
+
+
+<div class="hero-image">
+
+
+<img 
+
+src="{{ url_for('static', filename='images/profile.png') }}"
+
+alt="Rajive Sharma Profile">
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ================= ABOUT SECTION ================= -->
+
+
+
+<section id="about" class="about-section">
+
+
+<div class="section-title">
+
+<h2>
+About Me
+</h2>
+
+
+</div>
+
+
+
+
+<div class="about-container">
+
+
+<div class="about-card">
+
+
+<h3>
+
+Cloud Associate Engineer
+
+</h3>
+
+
+
+<p>
+
+I am a Cloud Associate Engineer passionate about
+designing, deploying and automating reliable cloud
+infrastructure.
+
+<br><br>
+
+
+My experience includes AWS, Azure,
+Infrastructure as Code, CI/CD pipelines,
+Docker containers, Kubernetes,
+monitoring and cloud security.
+
+<br><br>
+
+
+I focus on transforming manual infrastructure
+operations into automated, scalable and secure
+cloud solutions.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="about-skills">
+
+
+<div class="skill-box">
+AWS
+</div>
+
+
+<div class="skill-box">
+Terraform
+</div>
+
+
+<div class="skill-box">
+Docker
+</div>
+
+
+<div class="skill-box">
+Kubernetes
+</div>
+
+
+<div class="skill-box">
+CI/CD
+</div>
+
+
+<div class="skill-box">
+Monitoring
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- ================= EXPERIENCE SECTION ================= -->
+
+
+<section id="experience">
+
+
+<div class="section-title">
+
+<h2>
+My DevOps Journey
+</h2>
+
+</div>
+
+
+
+<div class="timeline">
+
+
+<div class="timeline-item">
+
+
+<h3>
+Infrastructure Foundation
+</h3>
+
+
+<h4>
+Tata Technologies
+</h4>
+
+
+<p>
+
+Enterprise IT operations,
+server management,
+Linux fundamentals and infrastructure support.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="timeline-item">
+
+
+<h3>
+Cloud Operations
+</h3>
+
+
+<h4>
+Computer Exchange
+</h4>
+
+
+<p>
+
+Cloud support,
+Linux administration,
+production troubleshooting
+and server operations.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="timeline-item">
+
+
+<h3>
+Cloud Associate Engineer
+</h3>
+
+
+<h4>
+Moresco Software Service Pvt Ltd
+</h4>
+
+
+<p>
+
+AWS & Azure infrastructure,
+cloud cost optimization,
+automation,
+monitoring and deployment support.
+
+</p>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ================= SKILLS SECTION ================= -->
+
+
+<section id="skills">
+
+
+<div class="section-title">
+
+<h2>
+Technical Skills
+</h2>
+
+</div>
+
+
+
+
+<div class="skills-container">
+
+
+<div class="skill-card">
+
+<h3>
+Cloud
+</h3>
+
+<p>
+
+AWS<br>
+Azure<br>
+CloudFormation<br>
+IAM<br>
+VPC<br>
+EC2<br>
+ECS
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="skill-card">
+
+<h3>
+Containers
+</h3>
+
+<p>
+
+Docker<br>
+Docker Compose<br>
+Kubernetes<br>
+K3s<br>
+EKS
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="skill-card">
+
+<h3>
+DevOps
+</h3>
+
+<p>
+
+Terraform<br>
+Jenkins<br>
+GitHub<br>
+CodePipeline<br>
+CodeBuild
+
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="skill-card">
+
+<h3>
+Monitoring & Security
+</h3>
+
+<p>
+
+Prometheus<br>
+Grafana<br>
+Loki<br>
+CloudTrail<br>
+IAM Security
+
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ================= PROJECTS ================= -->
+
+
+<section id="projects">
+
+
+<div class="section-title">
+
+<h2>
+Featured Projects
+</h2>
+
+
+</div>
+
+
+
+<div class="project-container">
+
+
+<div class="project-card">
+
+<h3>
+AWS CI/CD Pipeline
+</h3>
+
+<p>
+
+Automated deployment pipeline using
+CodePipeline, CodeBuild and Docker.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="project-card">
+
+<h3>
+CloudFormation Infrastructure
+</h3>
+
+
+<p>
+
+Production VPC infrastructure built using
+Infrastructure as Code.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="project-card">
+
+<h3>
+Monitoring Platform
+</h3>
+
+
+<p>
+
+Prometheus, Grafana and Loki monitoring
+solution for Linux and Windows servers.
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ================= CONTACT ================= -->
+
+
+<section id="contact">
+
+
+<div class="section-title">
+
+<h2>
+Contact
+</h2>
+
+
+</div>
+
+
+
+<p class="contact-text">
+
+Interested in cloud automation and DevOps opportunities?
+
+Let's connect.
+
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ================= FOOTER ================= -->
+
+
+<footer>
+
+
+<p>
+
+© 2026 Rajive Sharma | Cloud & DevOps Engineer
+
+</p>
+
+
+</footer>
+
+
+
+
+
+
+<!-- JavaScript -->
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+
+
 </body>
+
+
 </html>
